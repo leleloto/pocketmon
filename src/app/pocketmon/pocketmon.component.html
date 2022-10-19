@@ -1,0 +1,13 @@
+<h2>{{ pocketmon.name }}</h2>
+<div class="pocketmon">
+  <div>
+    <label for="name">포켓몬 이름: </label>
+    <input id="name" [(ngModel)]="pocketmon.name" placeholder="이름" />
+  </div>
+  <span class="id">{{ pocketmon.id }}</span>
+  <div class="name">{{ pocketmon.name }}</div>
+  <div class="flex">
+    <div class="bg-[#7ab766]">{{ pocketmon.type1 }}</div>
+    <div class="bg-[#a16ec2]">{{ pocketmon.type2 }}</div>
+  </div>
+</div>

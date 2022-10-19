@@ -1,0 +1,62 @@
+.pocketmon .id {
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #999;
+}
+
+.pocketmon .name {
+  font-family: "Noto Sans", "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕",
+    sans-serif;
+  word-break: keep-all;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: #000;
+}
+
+.badge {
+  position: relative;
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.badge .type1 {
+  background: #7ab766;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 18px;
+  width: 42%;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.badge .type2 {
+  background: #a16ec2;
+  color: #ffffff;
+  right: 18px;
+  left: auto;
+  position: absolute;
+  bottom: 0;
+  width: 42%;
+  position: absolute;
+  bottom: 0;
+  left: 18px;
+  width: 42%;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
